@@ -142,16 +142,22 @@ h3, h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work:nth-child(even) {
   margin-right: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work img {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .work h3 {
@@ -230,6 +236,9 @@ input[type=submit] {
   }
   .work {
     width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
   }
   .auth-image {
     width: 100%;
@@ -249,12 +258,18 @@ input[type=submit] {
     .work {
       width: 47%;
       margin-bottom: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
     .work:nth-child(even){
       margin-right: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
     .work:nth-child(odd){
       float: right;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
     .auth-image{
       width: 50%;
@@ -270,6 +285,8 @@ input[type=submit] {
       }
       #logo,.work,.auth-image {
         width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
       }
       nav {
         text-align: center;
